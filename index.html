@@ -1,68 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Evaluación Cultura Organizacional - SKECHERS</title>
+<title>Evaluación Cultura Organizacional Skechers</title>
 
-<style>
-
-body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#0055A4;
-color:white;
-text-align:center;
-}
-
-header{
-background:white;
-padding:20px;
-color:#0055A4;
-}
-
-.logo{
-width:220px;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:20px;
-}
-
-.card{
-background:white;
-color:#333;
-border-radius:15px;
-padding:30px;
-margin-top:30px;
-box-shadow:0 0 15px rgba(0,0,0,.3);
-}
-
-button{
-background:#0055A4;
-color:white;
-border:none;
-padding:15px 30px;
-font-size:18px;
-border-radius:10px;
-cursor:pointer;
-margin-top:20px;
-}
-
-button:hover{
-background:#003f80;
-}
-
-img{
-width:100%;
-border-radius:10px;
-margin-top:15px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -70,9 +15,9 @@ margin-top:15px;
 
 <header>
 
-<h1>SKECHERS</h1>
+<h1>Evaluación Cultura Organizacional</h1>
 
-<h2>Evaluación Cultura Organizacional</h2>
+<p>SKECHERS - The Comfort Technology Company</p>
 
 </header>
 
@@ -83,33 +28,31 @@ margin-top:15px;
 <h2>Bienvenido</h2>
 
 <p>
-Esta evaluación medirá tus conocimientos sobre:
+Esta evaluación mide el conocimiento sobre la Cultura Organizacional de Skechers.
 </p>
 
-<ul style="text-align:left;font-size:20px;">
-<li>Misión</li>
-<li>Visión</li>
-<li>Atributos</li>
-<li>Competencias</li>
-<li>Magia con una Sonrisa</li>
-<li>Seguridad</li>
-</ul>
+<p>
+Las preguntas aparecerán en orden aleatorio cada vez que ingreses.
+</p>
 
-<button onclick="comenzar()">Comenzar Evaluación</button>
+<br>
 
-</div>
+<button onclick="iniciarEvaluacion()">
+Comenzar evaluación
+</button>
 
 </div>
 
-<script>
+<div id="evaluacion"></div>
 
-function comenzar(){
+<div id="resultado"></div>
 
-window.location.href="evaluacion.html";
+</div>
 
-}
+<script src="preguntas.js"></script>
 
-</script>
+<script src="script.js"></script>
 
 </body>
+
 </html>
