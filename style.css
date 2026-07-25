@@ -1,1 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+body{
+    background:linear-gradient(135deg,#0055A4,#007BFF);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:white;
+    color:#0055A4;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    color:#333;
+    border-radius:15px;
+    padding:25px;
+    margin:20px 0;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.card h2{
+    color:#0055A4;
+    margin-bottom:15px;
+}
+
+button{
+    background:#0055A4;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#003E7A;
+}
+
+.pregunta{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.opcion{
+    background:#f4f4f4;
+    color:#222;
+    padding:15px;
+    border-radius:10px;
+    margin:10px 0;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.opcion:hover{
+    background:#0055A4;
+    color:white;
+}
+
+#resultado{
+    text-align:center;
+    font-size:28px;
+    margin-top:25px;
+    font-weight:bold;
+}
